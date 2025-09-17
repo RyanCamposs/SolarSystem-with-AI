@@ -13,7 +13,6 @@
     background-color: #000005;
 }
 
-/* Estilização da caixa de informação */
 #info-box {
     position: absolute;
     top: 20px;
@@ -25,12 +24,10 @@
     font-family: sans-serif;
     font-size: 16px;
     border: 1px solid rgba(255, 255, 255, 0.2);
-    
-    /* Transição para aparecer e desaparecer suavemente */
     transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
     opacity: 1;
     visibility: visible;
-    pointer-events: none; /* Para não interferir com o clique no canvas */
+    pointer-events: none;
 }
 
 #info-box.hidden {
